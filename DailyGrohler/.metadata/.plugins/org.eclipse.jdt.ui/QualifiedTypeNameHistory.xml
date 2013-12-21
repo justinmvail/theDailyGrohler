@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.dailyGrohler.utils.Emailer"/>
+<fullyQualifiedTypeName name="com.dailyGrohler.common.Constants"/>
+<fullyQualifiedTypeName name="com.sun.mail.smtp.SMTPMessage"/>
+<fullyQualifiedTypeName name="javax.mail.internet.MimeMultipart"/>
+<fullyQualifiedTypeName name="javax.mail.internet.MimeBodyPart"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="com.dailyGrohler.utils.RandomNumberUtil"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+</qualifiedTypeNameHistroy>

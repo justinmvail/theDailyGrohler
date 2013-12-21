@@ -1,0 +1,34 @@
+package com.dailyGrohler.main;
+
+import com.dailyGrohler.common.Constants;
+import com.dailyGrohler.utils.Emailer;
+import com.dailyGrohler.utils.RandomNumberUtil;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		System.out.println("Starting!");
+		while(true){
+			int pictureInt = RandomNumberUtil.getRandom10();
+			int emailInt = RandomNumberUtil.getRandom5();
+			int quoteInt = RandomNumberUtil.getRandom10();
+			try{
+				Emailer.sendEmail(Constants.PHONE_NUMBER,
+									Constants.EMAIL_SUBJECT,
+									Constants.EMAIL_MESSAGE,
+									Constants.PICTURE_PATH,
+									Constants.EMAIL_ADDRESS,
+									Constants.EMAIL_PASSWORD);
+				System.out.println("Sent!");
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+			try {
+				Thread.sleep(Constants.DURATION_THREAD_SLEEP);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}			
+		}
+	}
+}

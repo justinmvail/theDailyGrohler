@@ -1,0 +1,40 @@
+package com.dailyGrohler.main;
+
+import java.io.BufferedOutputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+
+import com.dailyGrohler.common.Constants;
+import com.dailyGrohler.utils.Emailer;
+
+public class Main {
+	public static void main(String[] args) {
+		try {
+			System.setOut(new PrintStream(new BufferedOutputStream(new FileOutputStream(Constants.LOG_PATH))));
+		} catch (FileNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		System.out.println("Starting!");
+		while(true){
+			try{
+				Emailer.sendEmail(Constants.PHONE_NUMBER,
+									Constants.EMAIL_SUBJECT,
+									Constants.EMAIL_MESSAGE,
+									Constants.PICTURE_PATH,
+									Constants.EMAIL_ADDRESS,
+									Constants.EMAIL_PASSWORD);
+				System.out.println("Sent!");
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+			try {
+				Thread.sleep(Constants.DURATION_THREAD_SLEEP);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}			
+		}
+	}
+}

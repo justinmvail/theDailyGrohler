@@ -1,0 +1,13 @@
+package com.dailyGrohler.common;
+
+public class Constants {
+	
+	private static final String PHONE_NUMBER = "13346695476";
+	private static final String CARRIER_EMAIL = "tmomail.net";
+	private static final String PICTURE_PATH = "../Pictures/Grohl.jpeg";
+	private static final String EMAIL_SUBJECT = "Grohl For Life!";
+	private static final String EMAIL_MESSAGE = "Please take a moment to admire this delightful picture of Dave Grohl.";
+	private static final int DURATION_THREAD_SLEEP = 10000;
+	
+	
+}

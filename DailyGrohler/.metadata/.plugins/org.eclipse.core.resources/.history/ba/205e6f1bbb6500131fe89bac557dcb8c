@@ -1,0 +1,38 @@
+package com.dailyGrohler.common;
+
+public class Constants {
+	public static final String LOG_PATH = "C:\\Users\\Justin\\Desktop\\Grohl Logs";
+	public static final String PHONE_NUMBER = "13346695476@tmomail.net";	
+	public static final String PICTURE_PATH = "C:\\Users\\Justin\\Desktop\\Grohl Pictures";
+	public static final String EMAIL_SUBJECT = "Daily Grohl";
+	public static final String EMAIL_MESSAGE = "Please take a moment to admire this delightful picture of me, Dave Grohl.";
+	public static final int DURATION_THREAD_SLEEP = 60000;
+	public static final String EMAIL_ADDRESS = "thisIsDaveGrohl@gmail.com";
+	public static final String[] EMAIL_ADDRESS_ARRAY = {"thedailygrohler1@gmail.com",
+												"thedailygrohler2@gmail.com",
+												"thedailygrohler3@gmail.com",
+												"thedailygrohler4@gmail.com",
+												"thedailygrohler5@gmail.com"};
+	public static final String[] EMAIL_MESSAGE_ARRAY = {"\"There's a big difference between falling in love with someone and falling in love with someone and getting married. Usually, after you get married, you fall in love with the person even more.\" - Dave Grohl",
+														"\"The most important thing for me is my family, and my health and happiness, and making sure everyone's cool.\" - Dave Grohl", 
+														"\"Heavy Metal would not exist without Led Zeppelin, and if it did, it would suck.\" - Dave Grohl",
+														"\"I had no idea what I was doing and I faked it and it worked\" - Dave Grohl",
+														"\"It's time like these, you learn to live again\" - Dave Grohl", 
+														"\"I'm learning to walk again\" - Dave Grohl",
+														"\"I'm the voice inside your head you refuse to hear.\" - Dave Grohl",
+														"\"I swear I'll never give, I refuse.\" - Dave Grohl",
+														"\"I, I'm a streetlight shining.\" - Dave Grohl",
+														"\"Is someone getting the best, the best, the best of you.\" - Dave Grohl"};
+	public static final String[] PICTURE_NAMES = {"grohl1.jpg",
+													"grohl2.jpg",
+													"grohl3.jpg",
+													"grohl4.jpg",
+													"grohl5.jpg",
+													"grohl6.jpg",
+													"grohl7.jpg",
+													"grohl8.jpg",
+													"grohl9.jpg",
+													"grohl10.jpg"};
+	public static final String EMAIL_PASSWORD = "timeflie$";
+		
+}

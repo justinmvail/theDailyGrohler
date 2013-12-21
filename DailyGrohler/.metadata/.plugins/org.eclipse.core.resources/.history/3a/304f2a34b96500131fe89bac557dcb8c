@@ -1,0 +1,5 @@
+package com.dailyGrohler.utils;
+
+public class RandomNumberUtil {
+
+}

@@ -1,0 +1,15 @@
+package com.dailyGrohler.common;
+
+public class Constants {
+	
+	public static final String PHONE_NUMBER = "13346695476@tmomail.net";
+	
+	public static final String PICTURE_PATH = "../Pictures/Grohl.jpeg";
+	public static final String EMAIL_SUBJECT = "\\ /\\";
+	public static final String EMAIL_MESSAGE = "Please take a moment to admire this delightful picture of me, Dave Grohl.";
+	public static final int DURATION_THREAD_SLEEP = 10000;
+	public static final String EMAIL_ADDRESS = "thisIsDaveGrohl@gmail.com";
+	public static final String EMAIL_PASSWORD = "timeflie$";
+	
+	
+}
